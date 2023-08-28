@@ -51,3 +51,6 @@ svn co https://github.com/ophub/luci-app-amlogic/trunk/luci-app-amlogic package/
 #
 # ------------------------------- Other ends -------------------------------
 
+#####Add a feed source
+
+echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
