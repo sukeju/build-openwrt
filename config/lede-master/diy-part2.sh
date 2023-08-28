@@ -52,4 +52,4 @@ echo "DISTRIB_SOURCECODE='lede'" >>package/base-files/files/etc/openwrt_release
 # ------------------------------- Other ends -------------------------------
 
 #####Add a feed source
-echo "src-git helloworld https://github.com/fw876/helloworld.git" >> "feeds.conf.default"
+echo 'src-git helloworld https://github.com/fw876/helloworld.git' >>feeds.conf.default
